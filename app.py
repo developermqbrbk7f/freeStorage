@@ -21,5 +21,7 @@ def index():
     passwords = load_passwords()
     return render_template('index.html', passwords=passwords)
 
+    # new features soon
+
 if __name__ == '__main__':
     app.run(debug=True)
